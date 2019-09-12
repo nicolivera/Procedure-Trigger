@@ -37,5 +37,3 @@ exec sp_Ventas 2, 20
 select * from Ventas;
 select * from TotalVentas;
 
-insert into Ventas (id_venta, id_producto, cantidad)values(2, 2, 15);
-insert into TotalVentas values(20)
